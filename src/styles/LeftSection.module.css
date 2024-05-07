@@ -1,0 +1,91 @@
+.leftSection {
+  background-color: var(--col1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.newChat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  height: 10%;
+}
+
+.text1 {
+  color: var(--textcol);
+  font-size: 20px;
+  font-size: 13px;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.text3 {
+  color: var(--textcol);
+  font-size: 20px;
+  font-size: 13px;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  cursor: pointer;
+}
+
+.text4 {
+  color: var(--textcol);
+
+  font-size: 14.5px;
+  line-height: 1.25rem;
+  font-weight: 400;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  cursor: pointer;
+  margin-bottom: 120px;
+  margin-left: -2px;
+}
+
+.text2 {
+  color: gray;
+  font-size: 20px;
+  font-size: 13px;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding-bottom: 16px;
+}
+
+.lft_container img {
+  margin-left: -220px;
+}
+
+.newChat div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newChat svg {
+  width: 18px;
+  height: 18px;
+  color: var(--textcol);
+}
+
+.allChats {
+  height: 70%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  gap: 20px;
+  padding: 0px 20px;
+}

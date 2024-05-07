@@ -1,0 +1,249 @@
+.rightSection {
+  background-color: var(--col2);
+  height: 100vh;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+
+.chatgptversion {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 10%;
+  color: var(--textcol);
+  font-size: 18px;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.chatgptversion span {
+  color: gray;
+}
+
+.chatgptversion svg {
+  width: 16px;
+  height: 17px;
+}
+
+.nochat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--textcol);
+  font-size: 25px;
+  height: 70%;
+  position: relative;
+}
+
+.nochat .s1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nochat .s1 h1 {
+  font-size: 30px;
+  font-size: 23px;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-bottom: -282px;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+  left: -30px;
+}
+
+.nochat .s1 img {
+  margin-bottom: -192px;
+  position: relative;
+  left: 140px;
+}
+
+.nochat .s2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  border-bottom: 30px;
+  gap: 9px;
+  justify-content: center;
+  margin-bottom: -70px;
+}
+.nochat .suggestioncard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.nochat .suggestioncard h2 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  cursor: pointer;
+}
+
+.nochat .suggestioncard p {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  cursor: pointer;
+}
+
+.bottomsection {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottomsection svg {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.other svg {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.bottomsection svg:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.bottomsection .settings {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  --tw-text-opacity: 1;
+  color: rgba(25, 195, 125, var(--tw-text-opacity));
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.bottomsection .settings:hover {
+  background-color: #212121;
+}
+.bottomsection .messagebar {
+  border: 1px solid gray;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  border-radius: 13px;
+  justify-content: space-between;
+  width: 52%;
+  height: 20px;
+
+  margin-bottom: -1px;
+}
+
+.bottomsection .messagebar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: var(--textcol);
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.messages {
+  height: 70%;
+  width: 100%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow: auto;
+  margin-left: 120px;
+}
+
+.messages .message {
+  display: flex;
+  gap: 10px;
+}
+
+.messages .message img {
+  width: 28px;
+  height: 28px;
+}
+
+.messages .message div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.messages .message div h2 {
+  color: var(--textcol);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.messages .message div p {
+  color: var(--textcol);
+  font-size: 15px;
+  max-width: 600px;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+/* Animation */
+
+.typing_animation {
+  display: inline-flex;
+  padding-left: 5px;
+}
+
+.typing_animation .typing_dot {
+  height: 11px;
+  width: 11px;
+
+  border-radius: 50%;
+  background: white;
+  animation: animateDots 1.5s var(--delay) ease-in-out infinite;
+}
+
+@keyframes animateDots {
+  0%,
+  44% {
+    transform: translateY(0px);
+  }
+
+  44% {
+    opacity: 0.3;
+  }
+}

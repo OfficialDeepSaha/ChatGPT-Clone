@@ -1,0 +1,10 @@
+:root {
+  --col1: #171717;
+  --col2: #212121;
+  --textcol: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
