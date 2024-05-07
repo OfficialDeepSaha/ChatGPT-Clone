@@ -20,7 +20,8 @@ const ChatGPT = ({ onRecentData }) => {
   const suggestion3 = "Tell me a fun fact about the Roman Empire";
   const suggestion4 =
     "Write a SQL Query that adds a status column to an Orders table";
-  
+
+  const secretKey = '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';
 
   const handleInput = (e) => {
     setInput(e.target.value);
@@ -65,7 +66,7 @@ const ChatGPT = ({ onRecentData }) => {
     if (input) {
       let url = "https://api.openai.com/v1/chat/completions";
 
-      let token = `Bearer ${}`;
+      let token = `Bearer ${secretKey}`;
       let model = "gpt-3.5-turbo";
       setRecent((prevRecent) => [...prevRecent, input]);
       const text = input;
