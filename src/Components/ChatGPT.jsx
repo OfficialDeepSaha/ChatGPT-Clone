@@ -21,7 +21,7 @@ const ChatGPT = ({ onRecentData }) => {
   const suggestion4 =
     "Write a SQL Query that adds a status column to an Orders table";
 
-  const secretKey = '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';
+  const secretKey = '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';
 
   const handleInput = (e) => {
     setInput(e.target.value);
