@@ -67,7 +67,7 @@ const ChatGPT = ({ onRecentData }) => {
       let url = "https://api.openai.com/v1/chat/completions";
 
       let token = `Bearer ${secretKey}`;
-      let model = "gpt-4o";
+      let model = "gpt-4o-mini";
       setRecent((prevRecent) => [...prevRecent, input]);
       const text = input;
       setInput("");
